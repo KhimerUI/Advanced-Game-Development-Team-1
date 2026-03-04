@@ -141,10 +141,10 @@ public class EnemyMovementUnified : EnemyMovementBase
         Vector3 move = dir.normalized * speed;
         if (rb != null)
         {
-            Vector3 vel = rb.velocity;
+            Vector3 vel = rb.linearVelocity;
             vel.x = move.x;
             vel.z = move.z;
-            rb.velocity = vel;
+            rb.linearVelocity = vel;
         }
         else
         {
