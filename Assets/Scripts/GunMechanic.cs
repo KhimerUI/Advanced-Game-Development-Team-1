@@ -1,4 +1,4 @@
-using System.Collections;
+/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI; // Required for accessing UI components
@@ -61,3 +61,4 @@ public class Gun : MonoBehaviour
         }
     }
 }
+*/
